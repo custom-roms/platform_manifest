@@ -8,6 +8,12 @@
            fetch="https://github.com/"
            review="gerrit.aokp.co" />
 
+  <remote  name="rb"
+           fetch="https://github.com/randomblame/" />
+
+  <remote  name="tm"
+           fetch="https://github.com/TheMuppets/" />
+
   <remote  name="cm"
            fetch="https://github.com/CyanogenMod/"
            review="review.cyanogenmod.com" />
@@ -26,29 +32,18 @@
   <project path="cts" name="platform/cts" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="dalvik" name="platform/dalvik" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="development" name="platform/development" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
-  <project path="device/asus/grouper" name="AOKP/android_device_asus_grouper" remote="aokp" revision="jb" />
   <project path="device/common" name="device/common" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="device/generic/armv7-a" name="device/generic/armv7-a" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="device/generic/goldfish" name="device/generic/goldfish" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
-  <project path="device/moto/common" name="device/moto/common" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
-  <project path="device/moto/stingray" name="device/moto/stingray" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
-  <project path="device/moto/wingray" name="device/moto/wingray" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="device/sample" name="device/sample" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="device/samsung/crespo" name="AOKP/device_samsung_crespo" remote="aokp" revision="jb" />
-  <project path="device/samsung/crespo4g" name="device/samsung/crespo4g" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
-  <project path="device/samsung/d2-common" name="AOKP/android_device_samsung_d2-common" remote="aokp" revision="jb" />
-  <project path="device/samsung/d2tmo" name="AOKP/android_device_samsung_d2tmo" remote="aokp" revision="jb" />
-  <project path="device/samsung/hercules" name="AOKP/device_samsung_hercules" remote="aokp" revision="jb" />
-  <project path="device/samsung/maguro" name="device/samsung/maguro" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
-  <project path="device/samsung/msm8660-common" name="AOKP/android_device_samsung_msm8660-common" remote="aokp" revision="jb" />
-  <project path="device/samsung/msm8960-common" name="AOKP/android_device_samsung_msm8960-common" remote="aokp" revision="jb" />
-  <project path="device/samsung/toro" name="AOKP/device_samsung_toro" remote="aokp" revision="jb" />
-  <project path="device/samsung/torospr" name="device/samsung/torospr" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
-  <project path="device/samsung/tuna" name="AOKP/device_samsung_tuna" remote="aokp" revision="jb" />
-  <project path="device/ti/panda" name="device/ti/panda" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
+  <project path="device/htc/common" name="CyanogenMod/android_device_htc_common" remote="cm" revision="refs/tags/gingerbread" />
+  <project path="vendor/htc" name="TheMuppets/proprietary_vendor_htc" remote="tm" revision="refs/tags/ics" />
+  <project path="device/htc/msm7x30-common" name="randomblame/jellytime_device_htc_msm7x30-common" remote="rb" revision="master" />
+  <project path="device/htc/ace" name="randomblame/jellytime_device_htc_ace" remote="rb" revision="master" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
   <project path="external/aac" name="platform/external/aac" remote="aosp" revision="refs/tags/android-4.1.1_r1_" />
   <project path="external/android-mock" name="platform/external/android-mock" remote="aosp" revision="refs/tags/android-4.1.1_r1" />
@@ -340,10 +335,5 @@
   <project path="vendor/tmobile/providers/ThemeManager" name="android_vendor_tmobile_providers_ThemeManager" remote="cm" revision="jellybean" />
   <project path="vendor/tmobile/products/themes" name="android_vendor_tmobile_products_themes" remote="cm" revision="jellybean" />
 
-  <project path="device/samsung/p5100" name="AOKP/android_device_samsung_p5100" remote="aokp" revision="jb" />
   <project path="device/samsung/p5110" name="AOKP/android_device_samsung_p5110" remote="aokp" revision="jb" />
-  <project path="device/samsung/p5113" name="AOKP/android_device_samsung_p5113" remote="aokp" revision="jb" />
-  <project path="device/samsung/p3100" name="AOKP/android_device_samsung_p3100" remote="aokp" revision="jb" />
-  <project path="device/samsung/p3110" name="AOKP/android_device_samsung_p3110" remote="aokp" revision="jb" />
-  <project path="device/samsung/p3113" name="AOKP/android_device_samsung_p3113" remote="aokp" revision="jb" />
 </manifest>

@@ -4,3 +4,10 @@ Use the following commands to get started.
 
 $ repo init -u https://github.com/wolverine2k/platform_manifest -b jb
 $ repo sync
+
+Once repo sync finishes, after copying the proprietary files from the current running phone ROM run the following commands.
+
+. build/envsetup.sh
+brunch ace
+
+Happy ACE HACKING...

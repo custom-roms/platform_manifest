@@ -2,30 +2,30 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch="https://android.googlesource.com/"
+           fetch="http://android.googlesource.com/"
            review="https://android-review.googlesource.com/" />
 
   <remote  name="aokp"
-           fetch="https://github.com/"
+           fetch="http://github.com/"
            review="gerrit.sudoservers.com" />
 
   <remote  name="kangbang"
-           fetch="https://github.com/KangBangKreations/" />
+           fetch="http://github.com/KangBangKreations/" />
 
   <remote  name="self"
-           fetch="https://github.com/wolverine2k/" />
+           fetch="http://github.com/wolverine2k/" />
 
   <remote  name="flemmard"
-           fetch="https://github.com/Flemmard/" />
+           fetch="http://github.com/Flemmard/" />
 
   <remote  name="rb"
-           fetch="https://github.com/randomblame/" />
+           fetch="http://github.com/randomblame/" />
 
   <remote  name="tm"
-           fetch="https://github.com/TheMuppets/" />
+           fetch="http://github.com/TheMuppets/" />
 
   <remote  name="cm"
-           fetch="https://github.com/"
+           fetch="http://github.com/"
            review="review.cyanogenmod.com" />
 
   <default revision="refs/tags/android-4.2.2_r1"

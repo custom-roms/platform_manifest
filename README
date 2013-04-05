@@ -1,14 +1,20 @@
-This repository has been modified to only include specifics for HTC Desire HD (DHD) / ACE. I have removed additional unneeded devices. The manifest points to randomblame's repositories for device_htc_ace and device_htc_msm7x30-common. I am using randomblame's for the time being since it is kept in sync with AOKP. The proprietary_vendor_htc is from TheMuppets repo and android_device_htc_common is from CyanogenMod. This manifest changes will hopefully make it easier to do less code dump on the device (i.e. not spend time syncing unneeded source) and also make ROM Cooking for DHD straight forward.
+This repository has been modified to only include specifics for HTC Desire HD (DHD) / ACE with the jb-mr1 branch updates. I have removed additional unneeded devices. The manifest points to randomblame's repositories for device_htc_ace and device_htc_msm7x30-common. I am using randomblame's for the time being since it is kept in sync with AOKP. The proprietary_vendor_htc is from TheMuppets repo and android_device_htc_common is from CyanogenMod. This manifest changes will hopefully make it easier to do less code dump on the device (i.e. not spend time syncing unneeded source) and also make ROM Cooking for DHD straight forward.
 
 Use the following commands to get started.
 
-$ repo init -u https://github.com/wolverine2k/platform_manifest -b jb
+$ repo init -u https://github.com/AOKP/platform_manifest.git -b jb-mr1
 $ repo sync
 
 Once repo sync finishes, after copying the proprietary files from the current running phone ROM run the following commands.
 
-. build/envsetup.sh
-brunch aokp_ace
+$ . build/envsetup.sh
+$ brunch aokp_ace
+
+or simply run 
+
+$ . ./platform_manifest/manual_add_kernel_manifest.sh
+
+IMPORTANT: I haven't tested the branch out personally and am not sure that it will even compile. I will be doing it as and when time allows. I am looking for all the help I can. So if someone is interested, do not hesitate to jump right in. Your efforts will be very much appreicated.
 
 Happy ACE HACKING...
 
